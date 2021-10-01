@@ -1,10 +1,10 @@
-C:\Users\jeremy\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\jeremy\CLionProjects\untitled
--- The C compiler identification is GNU 8.1.0
+/home/student/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/student/CLionProjects/Ctp1
+-- The C compiler identification is GNU 11.2.1
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe - skipped
+-- Check for working C compiler: /usr/lib64/ccache/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/jeremy/CLionProjects/untitled/cmake-build-debug
+-- Build files have been written to: /home/student/CLionProjects/Ctp1/cmake-build-debug

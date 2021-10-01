@@ -33,7 +33,8 @@ char *dectohexa(unsigned int val){
         a=a/16;
         i--;
     }
-    return resultat;
+
+    return strrev(resultat);
 }
 
 
