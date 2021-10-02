@@ -17,11 +17,13 @@ int main() {
     char *exo4 = dectobin_v1(d);
     char *exo5 = dectobin_v2(d);
     char *exo6 = dectobin_v3(d);
+    char *exo7 = dectohexa_v2(c);
     assert(exo1==129); //exercice 1
     assert(exo2==254); //exercice 2
-    assert(!strcmp(exo3, "AAFF"));
-    assert(!strcmp(exo4, "11111110"));
-    assert(!strcmp(exo5, "11111110"));
-    assert(!strcmp(exo6, "11111110"));
+    assert(!strcmp(exo3, "AAFF"));//exercice 3
+    assert(!strcmp(exo4, "11111110"));//exercice 4
+    assert(!strcmp(exo5, "11111110"));//exercice 5
+    assert(!strcmp(exo6, "11111110"));//exercice 6
+    assert(!strcmp(exo7, "0000AAFF"));//exercice 7
 
 }

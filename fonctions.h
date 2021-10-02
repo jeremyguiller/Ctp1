@@ -122,5 +122,26 @@ char *dectobin_v3(unsigned int val){
     return res;
 }
 
+char *dectohexa_v2(unsigned int val){
+    int i = INT_SIZE-1;
+    unsigned int a = val;
+    char *res = malloc(INT_SIZE);
+    res[INT_SIZE]="\0";
+    while(i>=0) {
+
+        if (a % 16 < 10) {
+            res[i] = (a & 15) + 48;
+            i--;
+            a >>= 4;
+        }
+        else {
+            res[i] = (a & 15) + 55;
+            i--;
+            a >>= 4;
+        }
+    }
+    return res;
+}
+
 
 #endif //UNTITLED_FONCTIONS_H
