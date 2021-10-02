@@ -121,7 +121,7 @@ char *dectobin_v3(unsigned int val){
     }
     return res;
 }
-
+//exercice 7
 char *dectohexa_v2(unsigned int val){
     int i = INT_SIZE-1;
     unsigned int a = val;
