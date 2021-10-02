@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/j.guillerminprina/CLionProjects/Ctp1/main.c
+C:/Users/jeremy/CLionProjects/untitled/fonctions.h
+
+C:/Users/jeremy/CLionProjects/untitled/main.c
 stdio.h
 -
 assert.h
@@ -17,4 +19,6 @@ math.h
 -
 malloc.h
 -
+fonctions.h
+C:/Users/jeremy/CLionProjects/untitled/fonctions.h
 
